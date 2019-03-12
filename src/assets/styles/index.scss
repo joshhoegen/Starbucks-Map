@@ -1,0 +1,71 @@
+@import '~leaflet/dist/leaflet.css';
+@import '~react-leaflet-markercluster/dist/styles.min.css';
+
+$primary-color: black;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.app {
+  height: 100vh;
+}
+
+#app-container {
+  height: 100%;
+}
+
+.left-sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 32%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.charts {
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 20px;
+  width: 300px;
+  button.btn.btn-primary {
+    float: right;
+  }
+}
+
+@media (max-width: 720px) {
+  .left-sidebar {
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0px;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .charts {
+    position: relative;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+}
