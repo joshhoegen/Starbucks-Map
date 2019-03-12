@@ -23,7 +23,7 @@ class Index extends React.Component {
     }
 
     this.locationsDefault = []
-    this.pageSize = 15
+    this.pageSize = 10
 
     this.locationsActive = this.locationsActive.bind(this)
   }
