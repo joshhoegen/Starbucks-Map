@@ -1,7 +1,6 @@
-Lazy Portfolio
+Starbucks Cluster Map
 ===========
-Aggregates Google Plus, SoundCloud, Flickr, and when Instagram re-opens its API, that too!
-
+Aggregates data of all the Starbucks in the US
 ## TODO
 - Too much reliance on table for state management.
 - more propTypes
